@@ -237,6 +237,29 @@ footer a {
   margin-bottom: 50vh;
 }
 
+.placeholder {
+  display: none;
+}
+
+@media only screen and (max-width: 1270px) {
+  header {
+    display: none;
+  }
+
+  div {
+    display: none;
+  }
+
+  footer {
+    display: none;
+  }
+
+  .placeholder {
+    display: inline;
+  }
+
+}
+
 /* Large tablets
 @media only screen and (max-width: 1024px) and (min-width: 630px) {
 
