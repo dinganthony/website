@@ -1,11 +1,20 @@
-Anthony Ding's personal website, version 3.
+# dinganthony.github.io
+Anthony Ding's personal website, built with HTML and CSS.
 
-Credits:
+Not yet optimized for mobile, which I'm working on.
 
-Identity by HTML5 UP (http://html5up.net) 
+### Anthony Ding
+https://anthonyd.in
 
-Font Awesome (http://fontawesome.io)
+[Github: /dinganthony](https://github.com/dinganthony)
 
-Responsive Tools (github.com/ajlkn/responsive-tools)
+anthonyding@berkeley.edu
 
-particles.js (http://vincentgarreau.com/particles.js/)
+### Credits
+Font: [Nunito](https://fonts.google.com/specimen/Nunito) by Google Fonts
+
+Icons: [FontAwesome](https://fontawesome.com/)
+
+Neutrinos image from [Unsplash](http://unsplash.com)
+
+

@@ -1,63 +1,50 @@
-<!DOCTYPE HTML>
-<html>
-	<head>
-		<title>Projects</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-
-		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
-		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
-		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
-		<link rel="manifest" href="site.webmanifest">
-	</head>
-	<body id="particles-js" class="animation_background">
-			<script src="particles.min.js"></script>
-			<script src="app.js"></script>
-				<!-- Wrappers -->
-				<div id="rapper">
-				<div id="wrapper">
-
-				<!-- Main -->
-					<section id="main">
-						<header>
-							<span class="avatar"><img src="images/yosemite.jpg" alt="" /></span>
-							<h1>Projects</h1>
-                            <p>Here's some of the stuff I've been working on!</p>
-                            <p><a href="https://hkn.mu/beta" class="button">New HKN Website</a></p>
-                            <p><a href="https://github.com/dinganthony/concept-maps" class="button">Concept Maps</a></p>
-						</header>
-                        <hr />
-                        <form method="post" action="#">
-                                <ul class="actions special">
-                                    <li><a href="index.html" class="button">Home</a></li>
-                                    <li><a href="about.html" class="button">About</a></li>
-                                </ul>
-                            </form>
-					</section>
-
-				<!-- Footer -->
-					<footer id="footer">
-						<ul class="copyright">
-							<li>&copy; Anthony Ding</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-						</ul>
-					</footer>
-				</div>
-				</div>
-
-
-
-
-		<!--Scripts-->
-			<script>
-				if ('addEventListener' in window) {
-					window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-preload\b/, ''); });
-					document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
-				}
-			</script>
-
-
-
-	</body>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Anthony Ding</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website for Anthony Ding, EECS undergrad at UC Berkeley.">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="canonical" href="https://anthonyd.in">
+  </head>
+  <body>
+    <header>
+      <h1><span class="highlight">Anthony</span> Ding</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">About</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="construction.html">Teaching</a></li>
+          <li><a href="assets/AnthonyDing_Resume.pdf">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="1">
+      <h2>Neutrinos</h2>
+      <h4>Beautiful nodal graphs and concept maps, with an interactive UIUX.</h4>
+      <img src="assets/images/photo10.jpg">
+      <p>Neutrinos is a tool to rapidly generate concept maps for coursework, representing information, and visualizations. The name of this project was inspired by the recent discovery of a new <a href="https://www.quantamagazine.org/neutrinos-lead-to-unexpected-discovery-in-basic-math-20191113/">theorem to calculate eigenvectors from eigenvalues</a> by physicists observing neutrino scattering behavior.<br><em>Technologies used: ReactJS, CSS</em><br><br>[Photo creds to <a href="https://unsplash.com/@halgatewood">Hal Gatewood</a> on <a href="https://unsplash.com/">Unsplash</a>]</p>
+    </section>
+    <hr/>
+    <section id="2">
+      <h2>HKN's New Website</h2>
+      <h4>Serving the Berkeley EECS Community!</h4>
+      <img src="assets/images/photo11.png">
+      <p>As a core officer of the <a href="https://hkn.mu">HKN</a> Computing Services Committee, I lead the development of a new modern website for the honor society. The project mainly uses Django, as well as frontend HTML/CSS with Django templating. See our progress <a href="https://hkn.mu/dev">here</a>.<br><em>Technologies used: Django, HTML, CSS</em></p>
+    </section>
+    <hr/>
+    <section id="3">
+      <h2>Torches</h2>
+      <h4>Playing with fire only helps you in this two person shooter game.</h4>
+      <img src="assets/images/photo12.png">
+      <p>This was a project that I made for my <a href="https://datastructur.es">CCS 61B: Data Structures</a> course at Berkeley. My project partner and I made a random world generator and then added a laser mechanic on top, which could light torches and illuminate squares. We also hosted a dorm tournament, which turned out to be fun!<br><em>Technologies used: Java</em></p>
+    </section>
+    <hr/>
+    <footer>
+      <p>&copy;2019. Designed by <a href="https://anthonyd.in">Anthony Ding</a>.</p>
+    </footer>
+  </body>
 </html>
