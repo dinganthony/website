@@ -242,22 +242,13 @@ footer a {
 }
 
 @media only screen and (max-width: 1270px) {
-  header {
-    display: none;
-  }
-
-  div {
-    display: none;
-  }
-
-  footer {
+  header, div, section, hr, footer {
     display: none;
   }
 
   .placeholder {
     display: inline;
   }
-
 }
 
 /* Large tablets
