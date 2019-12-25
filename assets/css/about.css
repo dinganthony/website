@@ -95,3 +95,54 @@
     width: 100px;
   }
 }
+
+@media only screen and (min-width: 700px) and (max-width: 1024px) {
+
+  .about {
+    padding-left: 5vw;
+    padding-right: 5vw;
+    padding-bottom: 5vh;
+    border-bottom: none;
+  }
+
+  .about h2 {
+    margin-top: 1vh;
+    font-size: 20px;
+  }
+
+  .about h3 {
+    margin-top: 2vh;
+    font-size: 16px;
+  }
+
+  .about p {
+    margin-top: 2vh;
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .about img {
+    float: left;
+    margin: 0vh 8vw 5vh 0vw;
+  }
+
+  .about .resize {
+    width: 250px;
+    height: 250px;
+  }
+
+  .wrapper {
+    display: block;
+    text-align: left;
+  }
+
+  .social {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100px;
+  }
+
+  .text-wrap {
+      padding-right: 10vw;
+  }
+}
