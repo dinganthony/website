@@ -1,5 +1,5 @@
 * {
-  margin: 0%;
+  margin: 0;
   padding: 0;
   border: 0;
   font-family: 'Nunito', sans-serif;
@@ -155,7 +155,8 @@ hr {
   padding-left: 15%;
   padding-right: 18%;
   padding-bottom: 100px;
-  height: 50vh;
+  display: flex;
+  flex-direction: row;
 }
 
 .about h2 {
@@ -183,10 +184,6 @@ hr {
   object-fit: cover;
 }
 
-.about .imgwrap {
-  height: 50vh;
-}
-
 .about .resize {
   width: 300px;
   height: 300px;
@@ -207,7 +204,7 @@ footer a {
   text-decoration-style: solid;
 }
 
-.wrapper {
+.social-wrapper {
   text-align: left;
 }
 
@@ -241,13 +238,85 @@ footer a {
   display: none;
 }
 
-@media only screen and (max-width: 1270px) {
-  header, div, section, hr, footer {
-    display: none;
+@media only screen and (max-width: 530px) {
+
+  header {
+    display: flex;
+    flex-direction: row;
+    height: auto;
   }
 
-  .placeholder {
-    display: inline;
+  header h1 {
+    font-size: 20px;
+    margin: 25px;
+    padding: 0;
+  }
+
+  .title-wrap {
+    width: 80vh;
+  }
+
+  .nav-wrap {
+    width: 20vh;
+  }
+
+  .img-wrap, .text-wrap {
+    height: auto;
+  }
+
+  .img-wrap {
+    display: block;
+    margin: 0 auto 30px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0;
+    left: 0;
+  }
+
+  nav ul {
+    font-size: 10px;
+  }
+
+  .about .resize {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+  }
+
+  .about {
+    flex-direction: column;
+    padding: 0px 15px 50px;
+  }
+
+  .about h2 {
+    font-size: 20px;
+  }
+
+  .about h3 {
+    font-size: 18px;
+  }
+
+  .about p {
+    font-size: 15px;
+  }
+
+  .wrapper {
+    display: block;
+    text-align: center;
+  }
+
+  .social {
+    display: inline-block;
+    margin: 0 auto;
+    width: 100px;
+  }
+
+  footer {
+    font-size: 10px;
   }
 }
 
