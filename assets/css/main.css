@@ -1,5 +1,5 @@
 * {
-  margin: 0%;
+  margin: 0;
   padding: 0;
   border: 0;
   font-family: 'Nunito', sans-serif;
@@ -111,87 +111,6 @@ a:hover[class="in-text"] {
   height: 385px;
 }
 
-section {
-  width: 100%;
-  text-align: center;
-}
-
-section h2 {
-  padding-top: 20px;
-  font-size: 40px;
-  font-weight: normal;
-  padding-bottom: 5px;
-}
-
-section h4 {
-  font-size: 24px;
-  padding: 5px;
-}
-
-section p {
-  padding: 15px 240px 5px;
-  text-align: justify;
-}
-
-section img {
-  margin: auto;
-  display: block;
-  width: 800px;
-  height: 500px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-hr {
-  width: 80%;
-  height: 1px;
-  margin: auto;
-  background-color: #3f3f3f;
-  margin-top: 50px;
-  margin-bottom: 55px;
-}
-
-.about {
-  padding-left: 15%;
-  padding-right: 18%;
-  padding-bottom: 100px;
-  height: 50vh;
-}
-
-.about h2 {
-  margin-top: 5px;
-  font-weight: 400;
-  font-size: 36px;
-}
-
-.about h3 {
-  margin-top: 15px;
-  font-size: 20px;
-}
-
-.about p {
-  margin-top: 16px;
-  font-size: 16px;
-  text-align: left;
-}
-
-.about img {
-  float: left;
-  margin-right: 70px;
-  margin-left: 5%;
-  border-radius: 50%;
-  object-fit: cover;
-}
-
-.about .imgwrap {
-  height: 50vh;
-}
-
-.about .resize {
-  width: 300px;
-  height: 300px;
-}
-
 footer {
   display: block;
   height: 10vh;
@@ -207,29 +126,6 @@ footer a {
   text-decoration-style: solid;
 }
 
-.wrapper {
-  text-align: left;
-}
-
-.social {
-  width: 8vw;
-  display: inline-block;
-}
-
-.icons {
-  list-style: none;
-  display: flex;
-  align-items: flex-end;
-  margin-top: 4vh;
-  margin-bottom: 0;
-  font-size: 1.8rem;
-}
-
-.icons li a {
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .construction {
   font-size: 2rem;
   text-align: center;
@@ -237,25 +133,84 @@ footer a {
   margin-bottom: 50vh;
 }
 
-.placeholder {
-  display: none;
+@media only screen and (min-width: 700px) {
+
+  .hamburger {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 1270px) {
-  header, div, section, hr, footer {
+@media only screen and (max-width: 700px) {
+
+  header {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+
+  header h1 {
+    font-size: 25px;
+    margin: 25px;
+    padding: 0;
+  }
+
+  .title-wrap {
+    width: 80vh;
+  }
+
+  .nav-wrap {
+    width: 20vh;
+  }
+
+  .img-wrap, .text-wrap {
+    height: auto;
+  }
+
+  .img-wrap {
+    display: block;
+    margin: 0 auto 30px;
+  }
+
+  .hamburger {
+    display: block;
+    font-size: 25px;
+    padding: 25px;
+  }
+
+  nav {
+    position: fixed;
+    top: 75px;
+    left: 0;
+    padding-bottom: 25px;
+    width: 100vw;
+    z-index: 1;
+  }
+
+  #nav-mobile, #mobile-toggle {
     display: none;
   }
 
-  .placeholder {
-    display: inline;
+  nav ul {
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+
+  nav li {
+    margin-top: 30px;
+  }
+
+  footer {
+    font-size: 10px;
   }
 }
 
-/* Large tablets
-@media only screen and (max-width: 1024px) and (min-width: 630px) {
+/* Large tablets */
+@media only screen and (max-width: 1024px) and (min-width: 700px) {
 
   h1 {
-    font-size: 3rem;
+    font-size: 35px;
     letter-spacing: 0.4vh;
   }
 
@@ -312,252 +267,13 @@ footer a {
     height: 33vw;
   }
 
-  section {
-    width: 100vw;
-  }
-
-  section h2 {
-    padding-top: 3vh;
-    padding-bottom: 2vh;
-    font-size: 2rem;
-  }
-
-  section h4 {
-    font-size: 1.4rem;
-    padding: 1vh;
-  }
-
-  section p {
-    padding: 2vh 10vw 2vh;
-    text-align: justify;
-  }
-
-  section img {
-    margin: auto;
-    width: 70vw;
-    height: 60vh;
-    margin-top: 4vh;
-    margin-bottom: 4vh;
-  }
-
-  hr {
-    width: 80vh;
-    margin-top: 6vh;
-    margin-bottom: 7vh;
-  }
-
-  .about {
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 5vh;
-    border-bottom: none;
-  }
-
-  .about h2 {
-    margin-top: 3vh;
-    font-size: 2rem;
-  }
-
-  .about h3 {
-    margin-top: 2vh;
-    font-size: 1.6rem;
-  }
-
-  .about p {
-    margin-top: 2vh;
-    font-size: 1rem;
-    text-align: justify;
-  }
-
-  .about img {
-    float: left;
-    margin: 0vh 8vw 5vh 0vw;
-  }
-
-  .about .resize {
-    width: 30vw;
-    height: 30vw;
-  }
-
   footer {
     height: 10vh;
+    font-size: 12px;
   }
 
   footer p {
     text-align: center;
     margin-top: 7vh;
   }
-
 }
- 
-/* Small tablets and large mobile 
-@media only screen and (max-width: 630px) {
-  body {
-    padding-left: 0;
-    padding-right: 0;
-    width: 100vw;
-  }
-
-  h1 {
-    font-size: 1.5rem;
-    letter-spacing: 0.3vh;
-  }
-
-  header {
-    height: 10vh;
-  }
-
-  header h1 {
-    margin-left: 8vw;
-    margin-top: 3vh;
-  }
-
-  nav {
-    position: absolute;
-    top: 5vh;
-    left: 50vw;   
-    width: 50vw;
-  }
-
-  ul {
-    font-size: 0.6rem;
-  }
-
-  li {
-    float: left;
-    flex: 1;
-  }
-
-  li a {
-    padding: 0.5vh 1vh 0.5vh;
-  }
-
-  .gallery {
-    margin: 0;
-    margin-left: auto;
-    width: 100vw;
-    height: 200vw;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .square {
-    flex: 50%;
-    height: 50vw;
-  }
-
-  .inner {
-    height: 50vw;
-    width: 50vw;
-  }
-
-  .resize {
-    width: 50vw;
-    height: 50vw;
-  }
-
-  section {
-    width: 100vw;
-  }
-
-  section h2 {
-    padding-top: 2vh;
-    padding-bottom: 1vh;
-    font-size: 1.5rem;
-  }
-
-  section h4 {
-    font-size: 1rem;
-    padding: 0.5vh;
-  }
-
-  section p {
-    padding: 1vh 5vw 1vh;
-    font-size: 0.6rem;
-    text-align: justify;
-  }
-
-  section img {
-    margin: auto;
-    width: 80vw;
-    height: 50vw;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-  }
-
-  hr {
-    display: none;
-  }
-
-  .about {
-    padding-left: 5vw;
-    padding-right: 5vw;
-    padding-bottom: 5vh;
-    border-bottom: none;
-  }
-
-  .about h2 {
-    margin-top: 1vh;
-    font-size: 1.5rem;
-  }
-
-  .about h3 {
-    margin-top: 1vh;
-    font-size: 1rem;
-  }
-
-  .about p {
-    margin-top: 1vh;
-    font-size: 0.7rem;
-    text-align: justify;
-  }
-
-  .about img {
-    float: left;
-    margin-left: 20vw;
-    margin-bottom: 2vh;
-    margin-right: 30vw;
-  }
-
-  .about .resize {
-    width: 50vw;
-    height: 50vw;
-  }
-
-  .last {
-    display: none;
-  }
-
-  footer {
-    height: 3vh;
-  }
-
-  footer p {
-    text-align: center;
-    margin-top: 3vh;
-    font-size: 0.5rem;
-  }
-}
-
-@media only screen and (max-width: 374px) {
-  nav {
-    position: absolute;
-    top: 5vh;
-    left: 50vw;   
-    width: 40vw;
-  }
-
-  ul {
-    font-size: 0.4rem;
-  }
-
-  li {
-    float: left;
-    flex: 1;
-  }
-
-  li a {
-    padding: 0.2vh 0.6vh 0.2vh;
-  }
-}
-*/
