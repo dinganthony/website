@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/about.css">
   	<link rel="canonical" href="https://anthonyd.in">
   </head>
   <body>
@@ -16,8 +17,9 @@
         <h1><span class="highlight">Anthony</span> Ding</h1>
       </div>
       <div class="nav-wrap">
-        <icon class="mobile-toggle"></icon>
-        <nav>
+        <button class="fa fa-bars hamburger" id="mobile-untoggle" onclick="hamburger()"></button>
+        <button class="fa fa-times hamburger" id="mobile-toggle" onclick="hamburger()"></button>
+        <nav id="nav-mobile">
           <ul>
             <li><a href="index.html" class="active">About</a></li>
             <li><a href="projects.html">Projects</a></li>
@@ -48,9 +50,9 @@
         </div>
       </div>
     </div>
-    <div class="placeholder">Hi! Unfortunately, my site is not optimized for mobile at the moment, so you're seeing this instead of a jumble of text and images. I'm working on this and it should be out soon!</div>
     <footer>
       <p>&copy;2019. Designed by <a href="https://anthonyd.in">Anthony Ding</a>.</p>
     </footer>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

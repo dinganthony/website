@@ -12,22 +12,28 @@
   </head>
   <body>
     <header>
-      <h1><span class="highlight">Anthony</span> Ding</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="construction.html" class="active">Teaching</a></li>
-          <li><a href="assets/AnthonyDing_Resume.pdf">Resume</a></li>
-        </ul>
-      </nav>
+      <div class="title-wrap">
+        <h1><span class="highlight">Anthony</span> Ding</h1>
+      </div>
+      <div class="nav-wrap">
+        <button class="fa fa-bars hamburger" id="mobile-untoggle" onclick="hamburger()"></button>
+        <button class="fa fa-times hamburger" id="mobile-toggle" onclick="hamburger()"></button>
+        <nav id="nav-mobile">
+          <ul>
+            <li><a href="index.html">About</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="construction.html" class="active">Teaching</a></li>
+            <li><a href="assets/AnthonyDing_Resume.pdf">Resume</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <div class="construction">
       <p>Pardon the *internet* dust: still working on my website!</p>
     </div>
-    <div class="placeholder">Hi! Unfortunately, my site is not optimized for mobile at the moment, so you're seeing this instead of a jumble of text and images. I'm working on this and it should be out soon!</div>
     <footer>
       <p>&copy;2019. Designed by <a href="https://anthonyd.in">Anthony Ding</a>.</p>
     </footer>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>
