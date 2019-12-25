@@ -1,0 +1,35 @@
+#teaching {
+    margin: auto;
+}
+
+#notes ol {
+  direction: 1;
+}
+
+#notes li {
+  float: inherit;
+}
+
+#notes li a {
+  padding: 0;
+}
+
+@media only screen and (min-width: 700px) {
+  .web-only {
+    display: inherit;
+  } 
+    
+  .mobile-only {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+    .web-only {
+        display: none;
+    }
+    
+    .mobile-only {
+        display: inherit;
+    }
+}

@@ -87,30 +87,6 @@ a:hover[class="in-text"] {
   color: #120a8f;
 }
 
-.gallery {
-  margin: auto;
-  width: 1200px;
-  height: 1200px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-
-.square {
-  flex: 0 0 33.3%;
-  height: 400px;
-}
-
-.inner {
-  height: 385px;
-  width: 385px;
-}
-
-.resize {
-  width: 385px;
-  height: 385px;
-}
-
 footer {
   display: block;
   height: 10vh;
@@ -126,12 +102,13 @@ footer a {
   text-decoration-style: solid;
 }
 
+/* For construction page
 .construction {
   font-size: 2rem;
   text-align: center;
   margin-top: 10vh;
   margin-bottom: 50vh;
-}
+} */
 
 @media only screen and (min-width: 700px) {
 
@@ -140,6 +117,7 @@ footer a {
   }
 }
 
+/* Mobile */
 @media only screen and (max-width: 700px) {
 
   header {
@@ -206,7 +184,7 @@ footer a {
   }
 }
 
-/* Large tablets */
+/* Tablets */
 @media only screen and (max-width: 1024px) and (min-width: 700px) {
 
   h1 {
@@ -241,30 +219,6 @@ footer a {
 
   li a {
     padding: 1vh 2vh 1vh;
-  }
-
-  .gallery {
-    margin: 0;
-    margin-left: auto;
-    width: 100vw;
-    height: 100vw;
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .square {
-    flex: 33%;
-    height: 33vw;
-  }
-
-  .inner {
-    height: 33vw;
-    width: 33vw;
-  }
-
-  .resize {
-    width: 33vw;
-    height: 33vw;
   }
 
   footer {

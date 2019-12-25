@@ -1,77 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Anthony Ding</title>
+    <title>Teaching | Anthony Ding</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Personal website for Anthony Ding, EECS undergrad at UC Berkeley.">
     <link href="https://fonts.googleapis.com/css?family=Nunito:400,600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/teaching.css">
     <link rel="canonical" href="https://anthonyd.in">
   </head>
   <body>
     <header>
-      <h1><span class="highlight">Anthony</span> Ding</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="teaching.html" class="active">Teaching</a></li>
-          <li><a href="assets/AnthonyDing_Resume.pdf">Resume</a></li>
-        </ul>
-      </nav>
+      <div class="title-wrap">
+        <h1><span class="highlight">Data</span> Structures</h1>
+      </div>
+      <div class="nav-wrap">
+        <button class="fa fa-bars hamburger" id="mobile-untoggle" onclick="hamburger()"></button>
+        <button class="fa fa-times hamburger" id="mobile-toggle" onclick="hamburger()"></button>
+        <nav id="nav-mobile">
+          <ul>
+            <li><a href="teaching.html" class="active">Teaching</a></li>
+            <li><a href="#notes" class="web-only">Notes</a><a href="#notes" class="mobile-only" onclick="hamburger()">Notes</a></li>
+            <li><a href="#demos" class="web-only">Demos</a><a href="#demos" class="mobile-only" onclick="hamburger()">Demos</a></li>
+            <li><a href="index.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
     </header>
-    <div class="gallery">
-      <div class="square">
-        <div class="elem">
-          <img class="resize" src="assets/images/photo1.jpeg">
-        </div>
+    <div class="teaching">
+      <div class="info">
+        <h3>CS61B: Data Structures</h3>
+        <p>Spring 2020</p>
+        <p>[Section room and time]</p>
+        <p>OH: [OH room and time]</p>
       </div>
-      <div class="square">
-        <div class="elem">
-          <img class="resize" src="assets/images/photo2.jpeg">
-        </div>
+      <div id="notes">
+        <h3>Notes</h3>
+        <ol>
+          <li><a>Java</a></li>
+          <li><a>Linked Lists</a></li>
+          <li><a>Arrays, Stacks, and Queues</a></li>
+          <li><a>Asymptotics</a></li>
+          <li><a>Disjoint Sets</a></li>
+          <li><a>Trees (BST, 2-3, LLRB)</a></li>
+          <li><a>Hashing</a></li>
+          <li><a>Graphs and Graph Algorithms</a></li>
+          <li><a>Comparison Sorting</a></li>
+          <li><a>Radix Sorting</a></li>
+          <li><a>Huffman Coding</a></li>
+        </ol>
       </div>
-      <div class="square">
-        <div class="elem">
-          <img class="resize" src="assets/images/photo3.jpeg">
-        </div>
-      </div>
-      <div class="square">
-        <div class="elem">
-          <img class="resize" src="assets/images/photo4.jpeg">
-        </div>
-      </div>
-      <div class="square">
-        <div class="elem">
-          <img class="resize" src="assets/images/photo5.jpeg">
-        </div>
-      </div>
-      <div class="square">
-        <div class="elem">
-          <img class="resize" src="assets/images/photo6.jpeg">
-        </div>
-      </div>
-      <div class="square">
-        <div class="elem">
-          <img class="resize" src="assets/images/photo7.jpeg">
-        </div>
-      </div>
-      <div class="square">
-        <div class="elem">
-          <img class="resize" src="assets/images/photo8.jpeg">
-        </div>
-      </div>
-      <div class="square">
-        <div class="elem last">
-          <img class="resize" src="assets/images/photo9.jpeg">
-        </div>
+      <div id="demos">
+        <h3>Demos</h3>
+        <p>Coming Soon!</p>
       </div>
     </div>
-    <div class="placeholder">Hi! Unfortunately, my site is not optimized for mobile at the moment, so you're seeing this instead of a jumble of text and images. I'm working on this and it should be out soon!</div>
     <footer>
       <p>&copy;2019. Designed by <a href="https://anthonyd.in">Anthony Ding</a>.</p>
     </footer>
+    <script src="assets/js/main.js"></script>
   </body>
 </html>

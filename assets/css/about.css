@@ -31,11 +31,10 @@
     object-fit: cover;
 }
   
-.about .resize {
+.resize {
     width: 300px;
     height: 300px;
 }
-
 
 .social-wrapper {
     text-align: left;
@@ -61,7 +60,7 @@
 }
 
 @media only screen and (max-width: 700px) {
-  .about .resize {
+  .resize {
     width: 200px;
     height: 200px;
     margin: 0 auto;
@@ -126,7 +125,7 @@
     margin: 0vh 8vw 5vh 0vw;
   }
 
-  .about .resize {
+  .resize {
     width: 250px;
     height: 250px;
   }
