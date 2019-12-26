@@ -1,13 +1,11 @@
-#teaching {
+.teaching {
     margin: auto;
-}
-
-#notes ol {
-  direction: 1;
+    margin-left: 500px;
 }
 
 #notes li {
-  float: inherit;
+  flex: none;
+  float: left;
 }
 
 #notes li a {
