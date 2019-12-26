@@ -1,15 +1,23 @@
 .teaching {
+    width: 75%;
     margin: auto;
-    margin-left: 500px;
+    margin-bottom: 100px;
 }
 
-#notes li {
-  flex: none;
-  float: left;
+h4 {
+  font-size: 20px;
 }
 
-#notes li a {
-  padding: 0;
+.info {
+  margin-bottom: 50px;
+}
+
+#notes {
+  margin-bottom: 50px;
+}
+
+h3 {
+  font-size: 30px;
 }
 
 @media only screen and (min-width: 700px) {
@@ -22,7 +30,7 @@
   }
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 700px) {
     .web-only {
         display: none;
     }

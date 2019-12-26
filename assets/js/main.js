@@ -13,3 +13,6 @@ function hamburger() {
         cross.style.display = "none";
     }
 }
+
+var d = new Date();
+document.getElementById("year").innerHTML = d.getFullYear();
