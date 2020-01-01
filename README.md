@@ -1,20 +1,12 @@
-# dinganthony.github.io
-Anthony Ding's personal website, built with HTML and CSS.
+# Personal Website
 
-Not yet optimized for mobile, which I'm working on.
-
-### Anthony Ding
-https://anthonyd.in
-
-[Github: /dinganthony](https://github.com/dinganthony)
-
-anthonyding@berkeley.edu
+https://anthonyding.me
 
 ### Credits
-Font: [Nunito](https://fonts.google.com/specimen/Nunito) by Google Fonts
+[Nunito](https://fonts.google.com/specimen/Nunito) by Google Fonts
 
-Icons: [FontAwesome](https://fontawesome.com/)
+[FontAwesome](https://fontawesome.com/) Icons
 
-Neutrinos image from [Unsplash](http://unsplash.com)
+Neutrinos image from [Unsplash](https://unsplash.com)
 
 
