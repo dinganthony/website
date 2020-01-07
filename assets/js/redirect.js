@@ -1,0 +1,1 @@
+window.location.replace("http://anthonyding.me/assets/Anthony_Ding.pdf");
