@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>CSM | Anthony Ding</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal website for Anthony Ding, EECS undergrad at UC Berkeley.">
+    <link href="https://fonts.googleapis.com/css?family=Nunito:400,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/teaching.css">
+    <link rel="canonical" href="http://anthonyding.me">
+  </head>
+  <body>
+    <header>
+      <div class="title-wrap">
+        <h1><span class="highlight">Anthony</span> Ding</h1>
+      </div>
+      <div class="nav-wrap">
+        <button class="fa fa-bars hamburger" id="mobile-untoggle" onclick="hamburger()"></button>
+        <button class="fa fa-times hamburger" id="mobile-toggle" onclick="hamburger()"></button>
+        <nav id="nav-mobile">
+          <ul>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="teaching.html" class="web-only">Cs 61b</a><a href="teaching.html" class="mobile-only" onclick="hamburger()">Cs 61b</a></li>
+            <li><a href="csm.html" class="web-only active">Eecs 16a</a><a href="csm.html" class="mobile-only active" onclick="hamburger()">Eecs 16a</a></li>
+            <li><a href="index.html">About</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <div class="teaching">
+      <div class="info">
+        <h4><a href="https://eecs16a.org">EECS 16A: Designing Info Devices and Systems</a></h4>
+        <p>Spring 2020</p>
+        <p>Hi! Welcome to CSM for EECS 16A!<br>Here you can find worksheets for our section as well as links and resources.</p>
+        <p>Leave me feedback <a href="https://tinyurl.com/csm-anthony">here</a>!</p>
+        <br/>
+        <p><b>Section info: </b>(also on <a href="https://scheduler.csmentors.org">Scheduler</a>)</p>
+        <p><i>Tu 12:30-2 pm, Soda 283F</i></p>
+      </div>
+      <div id="section">
+        <h3>Section Worksheets</h3>
+        <p><a href="assets/teach/csm/1 problems.pdf">Week 1</a> <a href="assets/teach/csm/1_solutions.pdf">[Solutions]</a></p>
+        <p><a href="assets/teach/csm/2_problems.pdf">Week 2</a></p>
+      </div>
+      <div id="notes">
+        <h3>Resources</h3>
+        <p>Important information and updates will be posted on the <a href="https://piazza.com/class/k6abkmjy4ih5lv">CSM 16A Piazza</a>.</p>
+        <p><a href="https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw">3Blue1Brown</a> is one of my favorite YouTube linear algebra channels. He does really cool visualizations!</p>
+        <p>[Advanced] If you're interested in machine learning, <a href="assets/teach/math4ml.pdf">this document</a> (cred. Garrett Thomas) contains some pertinent linear algebra concepts for ML</p>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; <span id="year"></span>. Designed by <a href="https://anthonyding.me">Anthony Ding</a>.</p>
+    </footer>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
