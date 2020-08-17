@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
-  font-family: 'Nunito', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
   background-color: #fafafa;
   vertical-align: baseline;
 }
@@ -97,7 +97,7 @@ footer {
 }
 
 footer p {
-  font-weight: lighter;
+  color: silver;
   text-align: center;
   margin-top: 0;
 }
@@ -106,13 +106,13 @@ footer a {
   text-decoration-style: solid;
 }
 
-/* For construction page
+/* For construction page */
 .construction {
-  font-size: 2rem;
+  font-size: 1.2rem;
   text-align: center;
   margin-top: 10vh;
   margin-bottom: 50vh;
-} */
+}
 
 @media only screen and (min-width: 700px) {
 
