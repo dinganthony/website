@@ -3,10 +3,10 @@
 https://anthonyding.me
 
 ### Credits
-[Nunito](https://fonts.google.com/specimen/Nunito) by Google Fonts
+[Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) by Google Fonts
 
 [FontAwesome](https://fontawesome.com/) Icons
 
-Neutrinos image from [Unsplash](https://unsplash.com)
+Imprint image from [Unsplash](https://unsplash.com)
 
 
