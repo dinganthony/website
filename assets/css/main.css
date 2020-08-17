@@ -3,7 +3,7 @@
   padding: 0;
   border: 0;
   font-family: 'Nunito Sans', sans-serif;
-  background-color: #fafafa;
+  background-color: #00203f;
   vertical-align: baseline;
 }
 
@@ -14,7 +14,7 @@ body {
 
 h1, h2, h3, h4, h5, h6, p {
   font-weight: lighter;
-  color: #3f3f3f;
+  color: #f0f0f0;
 }
 
 h1 {
@@ -25,7 +25,7 @@ h1 {
 }
 
 a {
-  color: #120a8f;
+  color: #adefd1;
   text-decoration: none;
 }
 
@@ -66,11 +66,11 @@ li a {
   text-align: center;
   text-decoration: none;
   opacity: 0.8;
-  color: #3f3f3f;
+  color: #fafafa;
 }
 
 li a.active {
-  color: #120a8f;
+  color: #adefd1;
   opacity: 1;
 }
 
@@ -84,7 +84,7 @@ a:hover[class="in-text"] {
 }
 
 .highlight {
-  color: #120a8f;
+  color: #adefd1;
 }
 
 .text-wrap {
@@ -155,6 +155,7 @@ footer a {
 
   .hamburger {
     display: block;
+    color: #f0f0f0;
     font-size: 25px;
     padding: 25px;
   }
